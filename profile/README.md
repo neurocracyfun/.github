@@ -9,11 +9,11 @@ Neurocracy is an open AI model whose neurons are steered by the people who hold 
 ### How a round works
 
 1. A round lasts thirty minutes. Holders sign a vote with their wallet for one candidate mind. Signing is free, and no transaction is sent.
-2. When the round closes, balances are checked again. Each vote counts as the square root of what the wallet holds.
+2. Who is ahead stays hidden until the round closes. Then balances are checked again. Each vote counts as the square root of what the wallet holds.
 3. The winning features stay boosted inside the model for the next thirty minutes.
 4. The model posts on X as whatever was picked. Nobody edits what it writes.
 
-Every round's count comes with a zero-knowledge proof that anyone can check at [neurocracy.fun/verify](https://neurocracy.fun/verify), or offline with the script in the repository.
+Every voted round is proven in zero knowledge (in testing until the mainnet launch). Anyone can check a proof at [neurocracy.fun/verify](https://neurocracy.fun/verify), or offline with the script in the repository.
 
 Past minds are kept in the Hall. Anyone can try a mix in the Lab.
 
